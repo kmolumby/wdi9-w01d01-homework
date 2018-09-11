@@ -1,0 +1,49 @@
+kellys-MacBook-Pro:homework_part_1 kelly$ mkdir death_star
+kellys-MacBook-Pro:homework_part_1 kelly$ cd death_star/
+kellys-MacBook-Pro:death_star kelly$ touch darth_vader.txt princess_leia.txt storm_trooper.tx
+kellys-MacBook-Pro:death_star kelly$ ls
+darth_vader.txt		princess_leia.txt	storm_trooper.tx
+kellys-MacBook-Pro:homework_part_1 kelly$ mkdir galaxy_far_far_away
+kellys-MacBook-Pro:homework_part_1 kelly$ cd galaxy_far_far_away/
+kellys-MacBook-Pro:galaxy_far_far_away kelly$ mkdir tatooine
+kellys-MacBook-Pro:galaxy_far_far_away kelly$ cd tatooine/
+kellys-MacBook-Pro:tatooine kelly$ touch luke.txt ben_kenobi.txt
+kellys-MacBook-Pro:tatooine kelly$ mkdir millenium_falcon
+kellys-MacBook-Pro:tatooine kelly$ cd millenium_falcon/
+kellys-MacBook-Pro:millenium_falcon kelly$ touch han_solo.tx chewbaca.txt
+kellys-MacBook-Pro:millenium_falcon kelly$ cd ..
+kellys-MacBook-Pro:tatooine kelly$ mv ben_kenobi.txt obi_wan.txt
+kellys-MacBook-Pro:tatooine kelly$ cd ..
+kellys-MacBook-Pro:galaxy_far_far_away kelly$ cd ..
+kellys-MacBook-Pro:homework_part_1 kelly$ cp death_star/storm_trooper.tx galaxy_far_far_away/tatooine/
+kellys-MacBook-Pro:homework_part_1 kelly$ cd galaxy_far_far_away/tatooine/
+kellys-MacBook-Pro:tatooine kelly$ mv luke.txt millenium_falcon/
+kellys-MacBook-Pro:tatooine kelly$ mv obi_wan.txt millenium_falcon/
+kellys-MacBook-Pro:galaxy_far_far_away kelly$  mv tatooine/millenium_falcon/ ..
+kellys-MacBook-Pro:homework_part_1 kelly$ mv millenium_falcon/ galaxy_far_far_away/
+kellys-MacBook-Pro:homework_part_1 kelly$ mv galaxy_far_far_away/millenium_falcon/ death_star/
+kellys-MacBook-Pro:homework_part_1 kelly$ cd death_star/
+kellys-MacBook-Pro:death_star kelly$ mv princess_leia.txt millenium_falcon/
+kellys-MacBook-Pro:death_star kelly$ rm -r millenium_falcon/obi_wan.txt 
+kellys-MacBook-Pro:homework_part_1 kelly$ cd galaxy_far_far_away/
+kellys-MacBook-Pro:galaxy_far_far_away kelly$ mkdir yavin_4
+kellys-MacBook-Pro:homework_part_1 kelly$ mv millenium_falcon/ galaxy_far_far_away/yavin_4/
+kellys-MacBook-Pro:homework_part_1 kelly$ mkdir galaxy_far_far_away/yavin_4/x_wing/
+kellys-MacBook-Pro:homework_part_1 kelly$ cd galaxy_far_far_away/yavin_4/
+kellys-MacBook-Pro:yavin_4 kelly$ mv millenium_falcon/princess_leia.txt yavin_4/
+kellys-MacBook-Pro:yavin_4 kelly$ mv millenium_falcon/luke.txt x_wing/
+kellys-MacBook-Pro:galaxy_far_far_away kelly$ mv yavin_4/x_wing/ 
+kellys-MacBook-Pro:homework_part_1 kelly$ cd death_star/
+kellys-MacBook-Pro:death_star kelly$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+kellys-MacBook-Pro:death_star kelly$ mv darth_vader.txt tie_fighter_1/
+ellys-MacBook-Pro:death_star kelly$ cp storm_trooper.tx tie_fighter_2
+kellys-MacBook-Pro:death_star kelly$ cp storm_trooper.tx tie_fighter_3
+kellys-MacBook-Pro:homework_part_1 kelly$ mv death_star/tie_fighter_1 galaxy_far_far_away/
+kellys-MacBook-Pro:homework_part_1 kelly$ mv death_star/tie_fighter_2 galaxy_far_far_away/
+kellys-MacBook-Pro:homework_part_1 kelly$ mv death_star/tie_fighter_3/ galaxy_far_far_away/
+kellys-MacBook-Pro:homework_part_1 kelly$ rm -r galaxy_far_far_away/tie_fighter_2
+kellys-MacBook-Pro:homework_part_1 kelly$ rm -r galaxy_far_far_away/tie_fighter_3
+kellys-MacBook-Pro:homework_part_1 kelly$ touch galaxy_far_far_away/x_wing/the_force.txt
+kellys-MacBook-Pro:homework_part_1 kelly$ rm -r death_star/
+kellys-MacBook-Pro:homework_part_1 kelly$ mv galaxy_far_far_away/millenium_falcon/ galaxy_far_far_away/yavin_4/
+kellys-MacBook-Pro:homework_part_1 kelly$ mv galaxy_far_far_away/x_wing/ galaxy_far_far_away/yavin_4/
